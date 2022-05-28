@@ -1,5 +1,5 @@
 class playfield():
-    def __init__(self, size, exit):
+    def __init__(self, size, exitField):
         self._size = size
-        self._exit = exit
+        self._exitField = exitField
     
