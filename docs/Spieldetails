@@ -1,0 +1,30 @@
+###### Spielfeld
+
+- Quadratisch
+- Besitzt ein spzielles Feld, was im folgenden als 'Ausgang' bezeichnet wir
+
+###### Spiel-Figuren
+
+- Autos, welche 1x2 oder 1x3 Felder belegen können
+- Ein (rotes) Auto, welches als 'Spieler Auto' bezeichnet wird
+  - Besitzt die Dimension 1x2
+- Keine zwei Spielfiguren belgen das selbe Feld
+- Die Spielfigur muss vollständig innerhalb des Quadrates sein
+
+###### Spiel-Ablauf
+
+- In jedem Zug darf der Spieler ein Auto in eine Richtung bewegen
+- Wenn ein Auto bewegt wird, rücken alle Bestandteile des Autos in die selbe Richtung um ein Feld weiter
+- Autos dürfen nur legale Züge machen, dazu zählen
+  - Keines der Feld auf welches das Auto vorrück wird von einem anderen Auto belegt
+  - Autos können sich nur horizontal oder vertikal bewegen, abhängig davon in welcher Ebene das Auto mehr Felder belegt
+  - Autos dürfen sich nicht auf ein Feld außerhalb des Spielfeldes bewegen
+
+###### Spiel Ende
+
+- Wenn der Spieler das 'Spieler Auto' auf das als 'Ausgang' gekennzeichnete Spielfeld bewegt hat er das Spiel gewonnen
+
+###### Spiel Varianten
+
+- Spiel gilt als verloren, wenn eine gewisse Anzahl an Zügen überschritten wurde
+- Neben den 1x2 und 1x3 gibt es auch Autos der Größe 1x4 oder noch größer
